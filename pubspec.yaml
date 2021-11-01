@@ -1,7 +1,6 @@
 name: share_web
 description: A web implementation of the flutter share plugin
 version: 0.0.1
-author:
 homepage:
 
 environment:
