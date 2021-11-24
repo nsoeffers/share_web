@@ -30,6 +30,6 @@ class ShareWebPlugin {
     }
 
     _share(String? text) async {
-        context.callMethod('open', [ 'mailto:?body=${text}', 'about:blank' ]);
+        context.callMethod('open', [ 'mailto:?body=$text', 'about:blank' ]);
     }
 }
